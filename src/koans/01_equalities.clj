@@ -27,7 +27,7 @@
   (= :foo (keyword "foo"))
 
   "Symbolism is all around us"
-  (= 'foo (symbol "foo"))
+  (= 'foo (symbol "foo" ))
 
   "When things cannot be equal, they must be different"
   (not= :fill-in-the-blank "anything"))
